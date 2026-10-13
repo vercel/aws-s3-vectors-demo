@@ -1,0 +1,5 @@
+{
+  "framework": "nextjs",
+  "buildCommand": "pnpm db:setup && pnpm db:seed && pnpm build",
+  "regions": ["iad1"]
+}
