@@ -5,6 +5,8 @@ import { config } from "dotenv";
 import { readMovies, year, type Movie } from "./movies";
 
 config({ path: ".env.local" });
+// `vercel pull` writes here instead of .env.local.
+config({ path: ".vercel/.env.development.local" });
 config();
 
 /**

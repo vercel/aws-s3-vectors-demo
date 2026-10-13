@@ -7,7 +7,7 @@ Try `dinosaurs escape and hunt people`. That phrase appears nowhere in the 4,799
 It connects to AWS without hardcoded access keys, using Vercel's [OIDC Federation](https://vercel.com/docs/security/secure-backend-access/oidc).
 
 <!-- TODO before publishing: add the hosted demo URL here. -->
-[![This is an alt text.](/public/Vercel-AWS-GitHub-s3-vector.png)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fvercel%2Faws-s3-vector-buckets-demo&project-name=aws-s3-vector-buckets-demo&repository-name=aws-s3-vector-buckets-demo&products=%5B%7B%22type%22%3A%22integration%22%2C%22integrationSlug%22%3A%22aws%22%2C%22productSlug%22%3A%22aws-s3-vector%22%2C%22protocol%22%3A%22storage%22%7D%5D)
+[![This is an alt text.](/public/Vercel-AWS-GitHub-s3-vector.png)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fvercel%2Faws-s3-vectors-demo&project-name=aws-s3-vectors-demo&repository-name=aws-s3-vectors-demo&products=%5B%7B%22type%22%3A%22integration%22%2C%22integrationSlug%22%3A%22aws%22%2C%22productSlug%22%3A%22aws-s3-vectors%22%2C%22protocol%22%3A%22storage%22%7D%5D)
 
 **Getting Started:**
 Click the "Deploy" button to clone this repo, create a new Vercel project, set up the AWS integration, and provision a new S3 vector bucket:
@@ -15,10 +15,6 @@ Click the "Deploy" button to clone this repo, create a new Vercel project, set u
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fvercel%2Faws-s3-vectors-demo&project-name=aws-s3-vectors-demo&repository-name=aws-s3-vectors-demo&products=%5B%7B%22type%22%3A%22integration%22%2C%22integrationSlug%22%3A%22aws%22%2C%22productSlug%22%3A%22aws-s3-vectors%22%2C%22protocol%22%3A%22storage%22%7D%5D)
 
 Once the process is complete, you can clone the newly created GitHub repository and start making changes locally.
-
-> **The Deploy button is not live yet.** It points at `github.com/vercel/aws-s3-vectors-demo`, which does not exist until this repo is published there; until then Vercel reports "The repository used by this template is private or does not exist". To deploy in the meantime, clone this repo, install the S3 Vectors resource from the [Vercel Marketplace](https://vercel.com/marketplace/aws), connect it to a project, and run `vercel deploy`.
-
-<!-- TODO: confirm productSlug ("aws-s3-vectors") against the Marketplace listing once it is public. -->
 
 
 ## Requirements

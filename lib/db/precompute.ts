@@ -4,6 +4,8 @@ import { config } from "dotenv";
 import { readMovies, embeddingText } from "./movies";
 
 config({ path: ".env.local" });
+// `vercel pull` writes here instead of .env.local.
+config({ path: ".vercel/.env.development.local" });
 config();
 
 /**

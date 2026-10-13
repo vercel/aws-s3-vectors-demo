@@ -6,6 +6,8 @@ import {
 import { config } from "dotenv";
 
 config({ path: ".env.local" });
+// `vercel pull` writes here instead of .env.local.
+config({ path: ".vercel/.env.development.local" });
 config();
 
 /**
