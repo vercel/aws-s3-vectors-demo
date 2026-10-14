@@ -8,7 +8,7 @@ It connects to AWS without hardcoded access keys, using Vercel's [OIDC Federatio
 
 [![This is an alt text.](/public/Vercel-AWS-GitHub-s3-vector.png)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fvercel%2Faws-s3-vectors-demo&project-name=aws-s3-vectors-demo&repository-name=aws-s3-vectors-demo&products=%5B%7B%22type%22%3A%22integration%22%2C%22integrationSlug%22%3A%22aws%22%2C%22productSlug%22%3A%22aws-s3-vectors%22%2C%22protocol%22%3A%22storage%22%7D%5D)
 
-**Demo:** [View Demo](https://aws-s3-vectors-demo.labs.vercel.dev/)
+**Demo:** [View Demo](https://aws-s3-vectors.vercel.app/)
 
 **Getting Started:**
 Click the "Deploy" button to clone this repo, create a new Vercel project, set up the AWS integration, and provision a new S3 vector bucket:
